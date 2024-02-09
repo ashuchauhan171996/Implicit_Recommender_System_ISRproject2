@@ -7,16 +7,16 @@ The objective of this project is to get familiar with the pipelines of implicit 
 
 ## We will use following method for recommendation system and compare results:
 
-### Non-personlised:
+### 1. Non-personlised:
 Built a non-personalized recommendation model to provide a ranked list of 50 movies as the recommendation for each user. The model is very simple: for each user, the recommendation list is to rank the unwatched movies by their **popularity**, where the popularity is the number of implicit feedback each movie gets. 
 
-### Collaborative Filtering Model
+### 2. Collaborative Filtering Model
 Built a **personalized** models instead of non-personalized models as in Part 1. I studied how collaborative filtering algorithms work for recommendations with implicit feedback. We need to implement a user-user collaborative filtering algorithm for recommendation.
 
-### Matrix Factorization Model
+### 3. Matrix Factorization Model
 Built a matrix factorization algorithms works for recommendations with implicit feedback.
 
-### Bayesian Personalized Ranking (BPR) Model
+### 4. Bayesian Personalized Ranking (BPR) Model
 Built a **Bayesian Personalized Ranking (BPR)** model for recommendations with implicit feedback.
 
 
